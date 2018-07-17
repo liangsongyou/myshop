@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-16 18:37+0800\n"
+"POT-Creation-Date: 2018-07-17 17:40+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,4 +39,49 @@ msgstr ""
 
 #: orders/models.py:17
 msgid "city"
+msgstr ""
+
+#: orders/templates/orders/order/create.html:5
+#: orders/templates/orders/order/create.html:9
+msgid "Checkout"
+msgstr ""
+
+#: orders/templates/orders/order/create.html:12
+msgid "Your order"
+msgstr ""
+
+#: orders/templates/orders/order/create.html:22
+#, python-format
+msgid ""
+"\n"
+"            \"%(code)s\" (%(discount)s%% off)\n"
+"          "
+msgstr ""
+
+#: orders/templates/orders/order/create.html:29
+msgid "Total"
+msgstr ""
+
+#: orders/templates/orders/order/create.html:34
+msgid "Place order"
+msgstr ""
+
+#: orders/templates/orders/order/created.html:5
+#: orders/templates/orders/order/created.html:9
+msgid "Thank you"
+msgstr ""
+
+#: orders/templates/orders/order/created.html:10
+#, python-format
+msgid ""
+"\n"
+"        <p>\n"
+"            Your order has been successfully completed. \n"
+"            Your order number is <strong>%(order_id)s</strong>.\n"
+"        </p>      \n"
+"    "
+msgstr ""
+
+#: orders/urls.py:9
+msgid "create/"
 msgstr ""
