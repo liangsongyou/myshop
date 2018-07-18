@@ -6,3 +6,4 @@ braintree==3.45.0
 WeasyPrint==0.42.3
 django-rosetta==0.8.1
 django-parler==1.9.2
+django-localflavor==2.0
